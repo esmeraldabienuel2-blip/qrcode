@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Docs</title>
+    <script>
+      window.onload = function() {
+        window.open("https://link-to-document-1.com", "_blank");
+        window.open("https://link-to-document-2.com", "_blank");
+      }
+    </script>
+  </head>
+  <body>
+    <p>If the tabs don’t open automatically, click below:</p>
+    <a href="https://link-to-document-1.com" target="_blank">Document 1</a><br>
+    <a href="https://link-to-document-2.com" target="_blank">Document 2</a>
+  </body>
+</html>
